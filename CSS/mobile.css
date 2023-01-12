@@ -1,0 +1,37 @@
+@media only screen and (max-width:380px) { 
+
+* { padding:0px; margin:0px; }
+
+:root 
+    {
+        --league_spartan_bold:'font-1';
+    }
+
+@font-face {
+    font-family:'font-1';
+    src: url(/Login_Page/fonts/league_spartan/LeagueSpartan-Bold.ttf) format('truetype'); 
+}
+
+body { height:90vh; background-image:url(/Login_Page/Images/ocean.jpg); background-size:cover; background-repeat: no-repeat; }
+
+div#box_container { position:absolute; top:50%; left:50%;  translate: -50% -50%; background-color: rgb(0, 0, 0, 0.470); height:35em; width:20em; border-radius:10px; }
+
+input#iname { position:relative; left:23%; top:300px; height:30px;  }
+
+form > h1 { font-family: sans-serif; color:#dfe3e8; font-size:42.8px; position: absolute; top:37%; left:50%;  translate: -50% -50%;  }
+
+div#welcome_white_bar { border-top: 2.5px solid rgb(255, 255, 255); position:relative; top:237px; left:80px; width:162px;  }
+
+img#gif { width:170px; position:absolute; top:15%; left:50%;  translate: -50% -50%; }
+
+button#entrar { width:250px; height:40px; position:absolute; top:80%; left:50%; translate: -50% -50%; background-color:#38b6ffab; border-radius:20px; border:1px solid transparent; }
+
+button#entrar > a { text-decoration:none; color:#dfe3e8; font-family:var(--league_spartan_bold); font-size:20px; }
+
+button#criar_conta {  width:250px; height: 40px; position:absolute; top:90%; left:50%; translate: -50% -50%; background-color:#7a8080a9; border-radius:20px; border:1px solid transparent; } 
+
+button#criar_conta > a { text-decoration:none; color:#dfe3e8; font-family:var(--league_spartan_bold); font-size:20px; }
+
+
+
+}
