@@ -1,0 +1,46 @@
+@media only screen and (max-width:380px) { 
+
+    * { padding:0px; margin:0px; color:black; font-family:sans-serif;  }
+    
+:root 
+        {
+            --league_spartan_bold:'font-1';
+            --monserrant_main:'font-2';
+        }
+    
+@font-face { font-family:'font-1'; src: url(/Login_Page/fonts/league_spartan/LeagueSpartan-Bold.ttf) format('truetype'); }
+@font-face { font-family:'font-2'; src: url(/Login_Page/fonts/montserrant_classic/Montserrat-VariableFont_wght.ttf) format('truetype'); }
+
+    
+body { height:91vh; background-image:url(/Login_Page/Images/ocean.jpg); background-size:cover; background-repeat: no-repeat; }
+    
+div#box_container { position:absolute; top:50%; left:50%;  translate: -50% -50%; background-color: rgb(0, 0, 0, 0.470); height:37em; width:20em; border-radius:10px; }
+    
+div#white_bar_01 { border-top: 2.5px solid rgb(255, 255, 255); position:relative; top:492px; left:40px; width:80px;  }
+div#white_bar_02 { border-top: 2.5px solid rgb(255, 255, 255); position:relative; top:490px; left:205px; width:80px;  }
+
+img#gif { width:220px; position:absolute; top:20%; left:50%;  translate: -50% -50%; }
+img#apple-logo { width:70px; position:absolute; top:490px; left:45px; }
+img#google-logo { width:39px; position: absolute; top:510px; left:228px; }
+
+    
+#login_h2 { font-family: var(--league_spartan_bold); position: absolute; top:10.4em; left:0.9em; letter-spacing:1.6px; color:#dfe3e8; 
+                }
+
+input#iusername { position:absolute; top:48%; left:50%; translate: -50%; width:270px; height:40px; background-color:#dfe3e8; 
+                    border-radius:10px; border:1px solid transparent;  }
+
+input#ipassword { position:absolute; top:58%; left:50%; translate: -50%; width:270px; height: 40px; background-color:#dfe3e8;
+                    border-radius:10px; border:1px solid transparent;}
+
+input { font-size:17px; padding-left:10px;}
+
+::placeholder { font-family:sans-serif, Verdana, Geneva, Tahoma; font-weight: 700;  }
+
+button#red_box { width:130px; height: 30px; position:absolute; top:70%; left:86px; translate: -50% -50%; background-color:#FF1616; border-radius:8px; border:1px solid transparent; }
+button#green_box {  width:130px; height: 30px; position:absolute; top:70%; left:238px; translate: -50% -50%; background-color:#2C8F3B; border-radius:8px; border:1px solid transparent; } 
+
+button#red_box > a { text-decoration:none; color:#dfe3e8; font-family:var(--league_spartan_bold); font-size:16px; }
+button#green_box > a { text-decoration:none; color:#dfe3e8; font-family:var(--league_spartan_bold); font-size:16px; }
+
+}
