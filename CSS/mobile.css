@@ -12,7 +12,7 @@
     src: url(/Login_Page/fonts/league_spartan/LeagueSpartan-Bold.ttf) format('truetype'); 
 }
 
-body { height:90vh; background-image:url(/Login_Page/Images/ocean.jpg); background-size:cover; background-repeat: no-repeat; }
+body { height:100vh; background-image:url(/Login_Page/Images/ocean.jpg); background-size:cover; background-repeat: no-repeat; }
 
 div#box_container { position:absolute; top:50%; left:50%;  translate: -50% -50%; background-color: rgb(0, 0, 0, 0.470); height:35em; width:20em; border-radius:10px; }
 
