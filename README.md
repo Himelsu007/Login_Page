@@ -1,4 +1,4 @@
-# Login Page  ( MOBILES ONLY! )
+# Login Page  ( Responsive )
 
 A login page is of extreme importance to web and app design, especially for online stores or e-commerce websites. I built this one based on "Mobile First" technique in order to improve my productivity and build a quick responsive website for all devices.
 
