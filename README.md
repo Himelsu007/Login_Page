@@ -4,4 +4,4 @@ A login page is of extreme importance to web and app design, especially for onli
 
 Mobile Version:
 
-![Login Screen](https://user-images.githubusercontent.com/107801315/212044743-3a66fc6a-ccb2-4088-bcb8-5b0445c31ac7.png)
+![image](https://user-images.githubusercontent.com/107801315/215224693-eb826717-46e4-4a7a-a91d-34383c73c50c.png)
