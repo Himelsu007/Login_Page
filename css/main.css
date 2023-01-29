@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@media screen and (min-width:346px) { 
+* { padding:0px; margin:0px; box-sizing:border-box;}
+:root
+    { 
+        --background_color:#122023;
+        --yellow_color:#E1CC66;
+        --main-font:'ex_01';
+        --sub-main-font:'ex_02';
+        --font-carmen-semi-bold:'ex_05';
+        --font-carmen-bold:'ex_03';
+        --font-carmen-heavy:'ex_04';
+        --main-white-color:#ffffffb8;
+    }
+
+@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+
+body { background-color: var(--background_color); height:102vh; }
+
+main > div#container {  height:100vh;  display:flex; flex-direction:column; justify-content:center; align-items:center;}
+
+div.child {  width:100vw; height:20em; ; text-align: center;}
+
+img#yoga_img_tablet { display:none;}
+
+#child_02 { padding:10px; }
+#child_02 > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; margin:auto; font-size:41px;}
+
+#child_03 > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; position:relative; top:18px; }
+
+#child_05 { padding-top:13px;  position:relative; top:10px; } 
+    #child_05 > a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white;
+                                font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:12px 48px 12px 48px; } 
+
+        #child_05 > #login_link { border:1.4px solid white;  text-decoration:none; color:white; font-family:var(--main-font);  border-radius:8px;
+                                    padding:12px 48px 12px 48px; background-color:white; color: var(--background_color); margin-left:20px;  } 
+
+#child_08 > p {  color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top: 30%;} 
+
+#child_10 { position:relative; top:-35px; }
+#child_10 > p { color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top:2.5em  }
+
+#child_10 > img#fb_logo { width:50px;  }
+
+    #child_10 > img#google_logo { width:48px; margin-left:30px;}
+
+footer > p { color:var(--main-white-color); font-family:var(--sub-main-font); font-size:11px; padding-left:4px;}
+    a#Terms_of_use_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+        a#privacy-policy_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+#gray_bar_left { border-top: 1px solid #ffffffb8 ; width:24%; display:flex; flex-direction:row; margin-left:17px;   }
+#gray_bar_right { border-top: 1px solid #ffffffb8 ; width:24%; display:flex; flex-direction:row; float:right; margin-right:17px;  }
+
+    }
+
+/* -------------------------------------------------------------------------------------470------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:470px) { 
+* { padding:0px; margin:0px; box-sizing:border-box;}
+:root
+    { 
+        --background_color:#17282F;
+        --yellow_color:#E1CC66;
+        --main-font:'ex_01';
+        --sub-main-font:'ex_02';
+        --font-carmen-semi-bold:'ex_05';
+        --font-carmen-bold:'ex_03';
+        --font-carmen-heavy:'ex_04';
+        --main-white-color:#ffffffb8;
+    }
+
+@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+
+body { background-color: var(--background_color); height:100vh;}
+
+div#container {  height:100vh;  display:flex; flex-direction:column; justify-content:center; align-items:center;}
+
+div.child {  width:100vw; height:20em; ; text-align: center;}
+
+img#yoga_img_tablet { display:none;}
+
+#child_02 { padding:10px; }
+#child_02 > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; margin:auto; }
+
+#child_03 > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; }
+
+#child_05 { padding-top:13px; } 
+    #child_05 > a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white;
+                                font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:16px 60px 16px 60px; } 
+
+        #child_05 > #login_link { border:1.4px solid white;  text-decoration:none; color:white; font-family:var(--main-font);  border-radius:8px;
+                                    padding:16px 60px 16px 60px; background-color:white; color: var(--background_color); margin-left:20px;  } 
+
+#child_06 > p {  color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top: 68%;} 
+
+#gray_bar_left { border-top: 1px solid #ffffffb8 ; width:30%; display:flex; flex-direction:row;  }
+#gray_bar_right { border-top: 1px solid #ffffffb8 ; width:30%; display:flex; flex-direction:row; float:right; }
+
+#child_ { border: 1px solid white; } 
+#child_09 { border: 1px solid white; }
+#child_10 { border: 1px solid white; }
+#child_11 { border: 1px solid white; }
+
+
+    }
+
+    /* -------------------------------------------------------------------------------------590------------------------------------------------------------------------------------- */
+

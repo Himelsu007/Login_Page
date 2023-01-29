@@ -4,41 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/mobile_first.css">
+    <link rel="stylesheet" href="/css/main.css">
     <title> Yoga </title>
 </head>
 
-<body>
+<body>  
     <main>
-        <img id="yoga_image_container" src="/Images/main_image.png" alt="yoga logo phone">
-        <h1> Welcome </h1>
-        <p> Please login or sign up to continue using <br> this app </p>
-    </main>
+    <div id="container">
 
-        <div id="links_container">
+        <div class="child" id="child_01"> 
+            <img id="yoga_img_mobile" src="/Images/mobile_image.png" alt="mobile"> 
+            <img id="yoga_img_tablet" src="/Images/main_image.png" alt="tablet">
+        </div> <br>
+        
+        <div class="child" id="child_02"> <h1> Welcome </h1> </div> 
+
+        <div class="child" id="child_03"> <p> Please login or sign up to continue using <br> this app </p> </div>
+
+        <div class="child" id="child_04"> </div>
+
+        <div class="child" id="child_05">
             <a id="sign_up_link" href="sign_up.html" target="_self" rel="next"> Sign Up </a>
-            <a id="login_link" href="login.html" target="_self" rel="next"> Login </a>
+            <a id="login_link" href="login.html" target="_self" rel="next"> <span style="color:white;">s</span>Login<span style="color:white;">s</span>  </a>  
         </div>
 
-<section>
+        <div class="child" id="child_07">    </div>
 
-    <div id="gray_bar"> </div>  
+        <div class="child" id="child_08">
+            <p> Or via social media </p>
+            <div id="gray_bar_left"> </div>  
+            <div id="gray_bar_right"> </div>
+        </div>
+        <div class="child" id="child_07">    </div>
 
-        <p id="social_media_p"> Or via social media </p> 
+        <div class="child" id="child_10">  
+            <p> OR</p>
+            <img id="fb_logo" src="/icons/facebook.png" alt="facebook icons">  
+            <img id="google_logo" src="/icons/google.png" alt="google logo">
+        </div>
+        
+        <footer>
+            <p> By continuing, you agree to our <a id="Terms_of_use_style" href="#"> Terms of use </a> and <a id="privacy-policy_style" href="#"> Privacy policy<b>.</b> </a> </p>
+        </footer>
 
-    <div id="gray_bar_copy"> </div>
-
-    <div id="logos_container">
-        <img id="facebook_logo" src="/icons/facebook.png" alt="facebook logo">
-        <img id="google_logo" src="/icons/google.png" alt="google logo">
-        <p id="Or_text_within_the_logos"> OR </p>
     </div>
+</main>
 
-</section>
-
-<footer>
-    <p> By continuing, you agree to our <a id="Terms_of_use_style" href="#"> Terms of use </a> and <a id="privacy-policy_style" href="#"> Privacy policy<b>.</b> </a> </p>
-</footer>
 
 </body>
 
