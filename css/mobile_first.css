@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@media screen and (min-width:320px) {
+
+*{ padding:0px; margin:0px; }
+
+:root
+    { 
+        --background_color:#17282F;
+        --yellow_color:#E1CC66;
+        --main-font:'ex_01';
+        --sub-main-font:'ex_02';
+        --font-carmen-semi-bold:'ex_05';
+        --font-carmen-bold:'ex_03';
+        --font-carmen-heavy:'ex_04';
+        --main-white-color:#ffffffb8;
+    }
+
+@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+
+body,main { background-color:var(--background_color); height:101vh; width:100vw; }
+
+img#yoga_image_container {  position:absolute; left:51.2%; top:2%; translate:-50%; width:365px;  }
+
+
+main > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; position:relative; top:43%; font-size: 40px;  }
+main > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; top:20.6em; position:relative; display:blo;}
+
+div#links_container { position:absolute; top:30.7em; left:5.2%; }
+
+a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white; font-family: var(--font-carmen-semi-bold); border-radius:8px;
+                    padding:12px 44px 12px 44px;  }
+
+a#login_link { border:2px solid white; position:relative; text-decoration:none; color:white; font-family: var(--main-font); left:15px; border-radius:8px;
+                padding:12px 54px 12px 54px; background-color:white; color: var(--background_color); }
+
+div#gray_bar { border-top: 1px solid #ffffffb8 ; position:relative; bottom:130px; width:90px;  left:15px;}
+div#gray_bar_copy { border-top: 1px solid #ffffffb8 ; position:relative; bottom:131px; width:90px; left:270px;}
+
+p#social_media_p { color:var(--main-white-color); font-family:var(--sub-main-font); position:absolute; bottom:30px; left:7.25em; }
+
+div#logos_container { position: absolute; top:39.6em; left:40%;  }
+    img#facebook_logo { width:50px; position:relative; left:-30px;}
+
+        img#google_logo  { width:49px; }
+p#Or_text_within_the_logos {color:var(--main-white-color); font-family:var(--sub-main-font); position:absolute; bottom:1em; left:1.5em; }
+
+footer > p { color:var(--main-white-color); font-family:var(--sub-main-font); font-size:11px; padding-left:4px;}
+
+a#Terms_of_use_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+a#privacy-policy_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+}
+
+/* -----------------------------------------------------------------------------Ladnscape mode -------------------------------------------------------------------------------------- */
+
+@media screen and (orientation:landscape) {
+
+    *{ padding:0px; margin:0px; }
+    
+    :root
+        { 
+            --background_color:#17282F;
+            --yellow_color:#E1CC66;
+            --main-font:'ex_01';
+            --sub-main-font:'ex_02';
+            --font-carmen-semi-bold:'ex_05';
+            --font-carmen-bold:'ex_03';
+            --font-carmen-heavy:'ex_04';
+            --main-white-color:#ffffffb8;
+        }
+    
+    @font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+    @font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+    @font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+    @font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+    @font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+    
+    body,main { background-color:var(--background_color); height:101vh; width:100vw; }
+    
+    img#yoga_image_container {  position:absolute; left:51.2%; top:2%; translate:-50%; width:200px;  }
+    
+    
+    main > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; position:relative; top:47%; font-size: 24px;  }
+    main > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; top:19em; position:relative; font-size:10px; }
+    
+    div#links_container { position:absolute; top:22em ; left:50%; translate:-50% -50%; }
+
+    a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white; font-family: var(--font-carmen-semi-bold); border-radius:8px;
+                        padding:12px 44px 12px 44px;  }
+
+    a#login_link { border:2px solid white; position:relative; text-decoration:none; color:white; font-family: var(--main-font); left:15px; border-radius:8px;
+                    padding:12px 54px 12px 54px; background-color:white; color: var(--background_color); }
+
+    div#gray_bar { border-top: 1px solid #ffffffb8 ; position:relative; bottom:130px; width:90px;  left:15px;}
+    div#gray_bar_copy { border-top: 1px solid #ffffffb8 ; position:relative; bottom:131px; width:90px; left:270px;}
+
+    p#social_media_p { color:var(--main-white-color); font-family:var(--sub-main-font); position:absolute; bottom:30px; left:7.25em; }
+
+    div#logos_container { position: absolute; top:45em; left:40%;  }
+        img#facebook_logo { width:50px; position:relative; left:-30px;}
+            img#google_logo  { width:49px; }
+
+    p#Or_text_within_the_logos {color:var(--main-white-color); font-family:var(--sub-main-font); position:absolute; bottom:1em; left:1.5em; }
+
+    footer > p { color:var(--main-white-color); font-family:var(--sub-main-font); font-size:11px; padding-left:4px;}
+
+    a#Terms_of_use_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+    a#privacy-policy_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+    }
+/* -----------------------------------------------------------------------------Tablets -------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:768px) {
+
+*{ padding:0px; margin:0px; }
+
+:root
+    { 
+        --background_color:#17282F;
+        --yellow_color:#E1CC66;
+        --main-font:'ex_01';
+        --sub-main-font:'ex_02';
+        --font-carmen-semi-bold:'ex_05';
+        --font-carmen-bold:'ex_03';
+        --font-carmen-heavy:'ex_04';
+        --main-white-color:#ffffffb8;
+    }
+
+@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+
+body,main { background-color:var(--background_color); height:101vh; width:100vw; }
+
+img#yoga_image_container {  position:absolute; left:51.2%; top:2%; translate:-50%; width:500px; }
+
+main > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; position:relative; top:8em; font-size: 48px;  }
+main > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; top:17em; position:relative; font-size:24px;}
+
+div#links_container { position:absolute; top:72% ; left:50%; translate:-50% -50%; }
+
+a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white; font-family: var(--font-carmen-semi-bold); border-radius:8px;
+                    padding:12px 44px 12px 44px;  }
+
+a#login_link { border:2px solid white; position:relative; text-decoration:none; color:white; font-family: var(--main-font); left:15px; border-radius:8px;
+                padding:12px 54px 12px 54px; background-color:white; color: var(--background_color); }
+
+div#gray_bar { border-top: 1px solid #ffffffb8 ; position:relative; bottom:130px; width:90px;  left:15px;}
+div#gray_bar_copy { border-top: 1px solid #ffffffb8 ; position:relative; bottom:131px; width:90px; left:270px;}
+
+p#social_media_p { color:var(--main-white-color); font-family:var(--sub-main-font); position:absolute; bottom:30px; left:7.25em; }
+
+div#logos_container { position: absolute; top:45em; left:40%;  }
+    img#facebook_logo { width:50px; position:relative; left:-30px;}
+        img#google_logo  { width:49px; }
+
+p#Or_text_within_the_logos {color:var(--main-white-color); font-family:var(--sub-main-font); position:absolute; bottom:1em; left:1.5em; }
+
+footer > p { color:var(--main-white-color); font-family:var(--sub-main-font); font-size:11px; padding-left:4px;}
+
+a#Terms_of_use_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+a#privacy-policy_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
+
+}

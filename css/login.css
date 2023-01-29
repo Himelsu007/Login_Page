@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@media screen and (min-width:320px) {
+
+*{ padding:0px; margin:0px; }
+
+:root
+    { 
+        --background_color:#17282F;
+        --yellow_color:#E1CC66;
+        --main-font:'ex_01';
+        --sub-main-font:'ex_02';
+        --main-white-color:#ffffffb8;
+    }
+
+@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+
+body { background-color:var(--background_color); height:101vh; width:100vw; }
+
+img#yoga_image_container {  position:absolute; left:8.3%; top:2%; translate:(-50% -50%);  }
+
+
+
+
+
+
+}
