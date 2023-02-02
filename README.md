@@ -7,8 +7,10 @@ I also want to give the credits for the design to the creator of it Kundan Khati
 
 ![image](https://user-images.githubusercontent.com/107801315/215330272-37116402-7cef-4de5-aec9-1e0c910fd7f6.png)
 
-<h1> Responsiveness </h1> 
+<h1> About the Project </h1> 
 
-<p>
-    This is my oficial firs
-</p>
+<h2>
+    - Responsive
+    - JS Interactions
+    - Good Looking
+</h1>
