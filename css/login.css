@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width:330px) { 
+@media screen and (min-width:324px) { 
 * { padding:0px; margin:0px; box-sizing:border-box;}
 :root
         { 
@@ -13,35 +13,58 @@
             --main-white-color:#ffffffb8;
         }
 
-@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
-@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
-@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
-@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
-@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+@font-face { font-family:'ex_01'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/Login_Page/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
 
 header > img { margin:auto; display:block; }
-
-header > menu > a > img { width:28px; position:relative; left:16px; top:-228px; }
-
-main {  height:12em; border:1px solid black;  }
-
-main > h1 { font-family:var(--font-carmen-bold); text-align:center; font-size:25px; color:var(--background_color); letter-spacing:-1px; }
-
 body { background-color:white; height:102vh; }
+header > menu > a > img { width:28px; position:relative; left:16px; top:-228px; }
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-form > fieldset { width:300px;  display:block; margin:auto; padding:3px; margin-top:17px ; border-radius:5px; border:2px solid gray; }
+div.flexbox-items {  margin:5px; width:200px;  background-color:rgb(20, 187, 123);  }
 
-form > fieldset > legend { padding-left:4px; padding-right:4px; font-family:var(--main-font); font-size:10px; color:gray; }
 
-fieldset > input { border: 2px solid transparent; height:30px; min-width:300px; position:relative; bottom:3px; border-radius:2px;}
+div#flexbox-container-a { display:flex; border:1px solid black; justify-content:center; height:65px; align-items:center; margin-bottom:10px; position:relative; bottom:35px; 
+                            }
+div#flexbox-item-a1 {  width:250px; height:40px; display:flex; justify-content: center; align-items:center;}
+div#flexbox-item-a1 > h1 { font-family:var(--font-carmen-bold); font-size:24px; color:var(--background_color); letter-spacing:-1px; }
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+div#flexbox-container-b { display:flex; border:1px solid black; justify-content:center; align-items:center; height:125px; position:relative; bottom:43px; }
+div#flexbox-container-b > div#flexbox-item-b1 { display:flex; justify-content:center; align-items:center; }
+div#flexbox-container-b > form > fieldset {  border-radius:5px; border: 2px solid gray; }
+div#flexbox-container-b > form > fieldset > legend { padding-left:4px; padding-right:4px; font-family:var(--main-font); font-size:10px; color:gray; }
+div#flexbox-container-b > form > fieldset > input { border: 2px solid transparent; height:30px; min-width:300px; border-radius:2px; padding-left:10px; padding-bottom:3px; }
+#iemail    { font-size:17px; padding-left:10px; }
+#ipassword { font-size:17px; padding-left:10px; }
 
-#iemail { font-size:17px; padding-left:10px; }
-    #ipassword { font-size:17px; padding-left:10px; }
-    #icheckbox { }
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-section { height:10em; margin-top:5px;  display:flex; flex-direction:column; justify-content:center; align-items:center; border: 1px solid black;}
+div#flexbox-container-c { display:flex; border:1px solid black; justify-content:space-around; position:relative; height:90px; width:100vw; position:relative; bottom:35px;}
+div#flexbox-item-c1 { display:flex; align-items:center; justify-content:start; margin:auto; width:308px; height:60px; }
+div#flexbox-item-c1 > input#icheckbox-01{ height:20px; width:20px; margin-left:10px;  }
+span#remember-me{ font-size:15px; padding-left:10px; font-family:var(--sub-main-font); }
 
-div.child {  width:100vw; height:2em; ; text-align: center; border: 1px solid black; }
+input[type=checkbox] { accent-color: var(--background_color); }
+
+
+.checkbox-square:checked {  background-color: var(--background_color);  }
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+div#flexbox-container-d { display:flex; border:1px solid black; justify-content:space-around; }
+div#flexbox-item-d1 { min-height:200px; }
+div#flexbox-item-d2 { min-height:200px; }
+div#flexbox-item-d3 { min-height:200px; }
+div#flexbox-item-d4 { min-height:200px; }
+
+
+
+
+
+
 
 
 }

@@ -4,49 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/Login_Page/css/login.css">
     
     <title> Login </title>
 </head>
 <body>
 
-    <header>
-        <img src="/Images/mobile_image.png" alt="mobile image">
+<header>
+    <img src="/Login_Page/Images/mobile_image.png" alt="mobile image">
 
-        <menu>
-                <a href="main.html" rel="prev" target="_self"> <img src="/Images/left_arrow.png" alt="left arrow"> </a>
-        </menu>
-    </header>
+    <menu>
+            <a href="main.html" rel="prev" target="_self"> <img src="/Login_Page/Images/left_arrow.png" alt="left arrow"> </a>
+    </menu>
+</header>
 
-<main>
 
-<h1> Login </h1>
+<div id="flexbox-container-a"> 
+    <div class="flexbox-items" id="flexbox-item-a1"> <h1> Login  </h1> </div>
+</div>
 
-<form action="#" autocomplete="on">
-        <fieldset>
-                <legend> Email </legend>
-                <label for="iemail"> </label>
-                <input type="email" name="email" id="iemail" placeholder="himelsu@icloud.com">
-        </fieldset>
-
-        <fieldset>
-                <legend> Password </legend>
-                <label for="ipassword"> </label>
-                <input type="password" name="password" id="ipassword" placeholder="∙∙∙∙∙∙∙∙∙∙∙∙" required minlength="7"> 
-        </fieldset>
-</form>
-
-</main>
-
-<section>
-    <div class="child" id="child_01"> 
-
-        <input type="checkbox" name="checkbox" id="icheckbox">
-
-    </div>
-
-</section>
+<div id="flexbox-container-b"> 
+        <form id="form-01" action="#" autocomplete="on">
+            <fieldset id >
+                    <legend> Email </legend>
+                    <label for="iemail"> </label>
+                    <input type="email" name="email" id="iemail" placeholder="himelsu@icloud.com">
+            </fieldset>
+    <br>
+            <fieldset>
+                    <legend> Password </legend>
+                    <label for="ipassword"> </label>
+                    <input type="password" name="password" id="ipassword" placeholder="∙∙∙∙∙∙∙∙∙∙∙∙" required minlength="7"> 
+            </fieldset>
+    </form>
     
+</div>
+
+<div id="flexbox-container-c"> 
+        <div class="flexbox-items" id="flexbox-item-c1"> 
+                <input type="checkbox" name="checkbox-01" id="icheckbox-01" > 
+                        <span id="remember-me"> Remember me </span> 
+                </input>
+                <a href="#">   Forgot Password?  </a>
+        </div>
+</div>
+
+<div id="flexbox-container-d"> 
+    <div class="flexbox-items" id="flexbox-item-d1"> </div>
+    <div class="flexbox-items" id="flexbox-item-d2"> </div>
+    <div class="flexbox-items" id="flexbox-item-d3"> </div>
+    <div class="flexbox-items" id="flexbox-item-d4"> </div>
+</div>
+
 </body>
+
+
+
+<!-- <input type="submit" name="password" form="form-01"> -->
 
 </html>
