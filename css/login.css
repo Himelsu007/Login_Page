@@ -26,9 +26,7 @@ header > menu > a > img { width:28px; position:relative; left:16px; top:-228px; 
 
 div.flexbox-items {  margin:5px; width:200px;  background-color:rgb(20, 187, 123);  }
 
-
-div#flexbox-container-a { display:flex; border:1px solid black; justify-content:center; height:65px; align-items:center; margin-bottom:10px; position:relative; bottom:35px; 
-                            }
+div#flexbox-container-a { display:flex; border:1px solid black; justify-content:center; height:65px; align-items:center; margin-bottom:10px; position:relative; bottom:35px;                             }
 div#flexbox-item-a1 {  width:250px; height:40px; display:flex; justify-content: center; align-items:center;}
 div#flexbox-item-a1 > h1 { font-family:var(--font-carmen-bold); font-size:24px; color:var(--background_color); letter-spacing:-1px; }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -42,27 +40,30 @@ div#flexbox-container-b > form > fieldset > input { border: 2px solid transparen
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-div#flexbox-container-c { display:flex; border:1px solid black; justify-content:space-around; position:relative; height:90px; width:100vw; position:relative; bottom:35px;}
+div#flexbox-container-c { display:flex; border:1px solid black; justify-content:space-around; position:relative; height:80px; width:100vw; position:relative; bottom:40px;}
 div#flexbox-item-c1 { display:flex; align-items:center; justify-content:start; margin:auto; width:308px; height:60px; }
 div#flexbox-item-c1 > input#icheckbox-01{ height:20px; width:20px; margin-left:10px;  }
-span#remember-me{ font-size:15px; padding-left:10px; font-family:var(--sub-main-font); }
-
-input[type=checkbox] { accent-color: var(--background_color); }
-
-
-.checkbox-square:checked {  background-color: var(--background_color);  }
+    span#remember-me{ font-size:15px; padding-left:10px; font-family:var(--sub-main-font); }
+        input[type=checkbox] { accent-color: var(--background_color); }
+            .checkbox-square:checked {  background-color: var(--background_color);  }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-div#flexbox-container-d { display:flex; border:1px solid black; justify-content:space-around; }
-div#flexbox-item-d1 { min-height:200px; }
-div#flexbox-item-d2 { min-height:200px; }
-div#flexbox-item-d3 { min-height:200px; }
-div#flexbox-item-d4 { min-height:200px; }
+div#flexbox-container-d { display:flex; border:1px solid black; justify-content:space-around; position:relative; height:100px; width:100vw; position:relative; bottom:35px}
+div#flexbox-item-d1 { display:flex; align-items:center; justify-content:center; margin:auto; width:400px; height:80px; }
+div#flexbox-item-d1 > input#isubmit { width:308px; height:50px; border-radius:5px; border:1px solid var(--background_color); color:white; 
+                                        background-color:var(--background_color); font-size:18px; font-family:var(--sub-main-font); font-weight:bold; }
 
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+div#flexbox-container-e { display:flex; border:1px solid black; justify-content:space-around; }
+div#flexbox-item-e1 { min-height:200px; }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+div#flexbox-container-f { display:flex; border:1px solid black; justify-content:space-around; }
+div#flexbox-item-f1 { min-height:200px; }
 
 
 
