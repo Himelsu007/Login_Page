@@ -2,6 +2,8 @@
 <p>
 A login page is of extreme importance to web and app design, especially for online stores or e-commerce websites. I built this one based on "Mobile First" technique in order to improve my productivity and build a quick responsive website for all devices. 
 I also want to give the credits for the design to the creator of it Kundan Khati , i found this design on Behance.com and decided to give a life to it.
+
+I changed couple things such as background color for the Login and Sign Up page, the left arrow that allow the user and so much more, i tried to keep the originality of the design, make sure you take a look at it.
 </p>
 
 
