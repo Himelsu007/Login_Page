@@ -4,10 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/sign_up.css">
+    <link rel="stylesheet" href="/Login_Page/css/sign_up.css">
     <title>Yoga</title>
 </head>
 <body>
     
-</body>
+    <header>
+        <img src="/Login_Page/Images/mobile_image.png" alt="mobile image">
+
+        <menu>
+                <a href="main.html" rel="prev" target="_self"> <img src="/Login_Page/Images/left_arrow.png" alt="left arrow"> </a>
+        </menu>
+    </header>
+    
+    
+    <div id="flexbox-container-a"> 
+        <div class="flexbox-items" id="flexbox-item-a1"> <h1> Sign Up  </h1> </div>
+    </div>
+    
+    <div id="flexbox-container-b"> 
+            <form id="form-01" action="#" autocomplete="on">
+
+                <fieldset id >
+                        <legend> Phone Number </legend>
+                        <label for="iphone"> </label>
+                        <input type="number" name="phone_number" id="iphone_number" placeholder="+351 " required>
+                </fieldset>
+        <br>
+                <fieldset id >
+                        <legend> Email </legend>
+                        <label for="iemail"> </label>
+                        <input type="email" name="email" id="iemail" placeholder="himelsu@icloud.com" required>
+                </fieldset>
+        <br>
+                <fieldset>
+                        <legend> Password </legend>
+                        <label for="ipassword"> </label>
+                        <input type="password" name="password" id="ipassword" placeholder="∙∙∙∙∙∙∙∙∙∙∙∙" required minlength="7"> 
+                </fieldset>
+        </form>
+        
+    </div>
+    
+    <div id="flexbox-container-c"> 
+            <div class="flexbox-items" id="flexbox-item-c1"> 
+                <input type="submit" name="submit" id="isubmit" value="Sign Up" form="form-01"> 
+            </div>
+    </div>
+    
+    <div id="flexbox-container-d"> 
+            <div class="flexbox-items" id="flexbox-item-d1">
+                <div id="gray_bar_left"> </div>  
+            </div>
+
+            <div class="flexbox-items" id="flexbox-item-d2"> 
+                <p> Or via social media </p>
+            </div>
+
+            <div class="flexbox-items" id="flexbox-item-d3"> 
+                <div id="gray_bar_right"> </div>
+            </div>        
+    </div>
+    
+    <div id="flexbox-container-e"> 
+            <div class="flexbox-items" id="flexbox-item-e1"> 
+                   <a href=""> <img src="/Login_Page/icons/facebook.png" alt="facebook-icon"> </a>
+            </div>
+
+            <div class="flexbox-items" id="flexbox-item-e2"> 
+                   <p> OR </p>
+            </div>
+
+            <div class="flexbox-items" id="flexbox-item-e3"> 
+                   <a href=""> <img src="/Login_Page/icons/google.png" alt="google-icon"> </a>
+            </div>
+
+    </div>
+    
+    <div id="flexbox-container-f"> 
+            <div class="flexbox-items" id="flexbox-item-f1">
+                    <p> Already have an account?  <a href="login.html"> Log In </a> </p>
+            </div>
+    </div>
+
+    </body>
 </html>

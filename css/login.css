@@ -53,9 +53,8 @@ div#flexbox-item-c1 > a { margin-left:54px; text-decoration:none; color:var(--ma
 
 div#flexbox-container-d { display:flex;  /* border:1px solid black; */ justify-content:space-around; position:relative; height:70px; width:100vw; position:relative; bottom:50px}
 div#flexbox-item-d1 { display:flex; align-items:center; justify-content:center; margin:auto; width:400px; height:60px; }
-div#flexbox-item-d1 > input#isubmit { width:308px; height:50px; border-radius:5px; ; 
-                                        background-color:var(--background_color); font-size:18px; font-family:var(--sub-main-font); font-weight:bold; }
-
+div#flexbox-item-d1 > input#isubmit { width:308px; height:50px; border-radius:5px; background-color:var(--background_color); font-size:18px; font-family:var(--sub-main-font); font-weight:bold;
+                                        color:var(--main-white-color); }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 div#flexbox-container-e { display:flex;  /* border:1px solid black; */ justify-content:space-around; position:relative; height:30px; width:100vw; position:relative; bottom:40px }

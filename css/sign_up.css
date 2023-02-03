@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@media screen and (min-width:324px) { 
+* { padding:0px; margin:0px; box-sizing:border-box;}
+:root
+        { 
+            --background_color:#17282F;
+            --yellow_color:#E1CC66;
+            --main-font:'ex_01';
+            --sub-main-font:'ex_02';
+            --font-carmen-semi-bold:'ex_05';
+            --font-carmen-bold:'ex_03';
+            --font-carmen-heavy:'ex_04';
+            --main-white-color:#fffffff2;
+            --main-ble-color: #1959ef;
+        }
+
+@font-face { font-family:'ex_01'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/Login_Page/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+
+html { scroll-behavior:smooth; }
+header > img { margin:auto; display:block; width:250px;}
+body { background-color:white; height:101vh; }
+header > menu > a > img { width:28px; position:relative; left:16px; top:-160px; }
+
+/* div.flexbox-items {  background-color:rgb(20, 187, 123);  } */
+
+div#flexbox-container-a { display:flex; /* border:1px solid black; */ justify-content:center; height:50px; align-items:center; margin-bottom:10px; position:relative; bottom:35px;                             }
+div#flexbox-item-a1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+div#flexbox-item-a1 > h1 { font-family:var(--main-font); font-size:24px; color:var(--background_color); letter-spacing:-1px; }
+
+div#flexbox-container-b { display:flex;  /* border:1px solid black; */ justify-content:center; align-items:center; height:220px; position:relative; bottom:40px; }
+div#flexbox-container-b > div#flexbox-item-b1 { display:flex; justify-content:center; align-items:center; }
+div#flexbox-container-b > form > fieldset {  border-radius:6px; border: 3.2px solid #808080b7; }
+div#flexbox-container-b > form > fieldset > legend { padding-left:6px; padding-right:5px; font-family:var(--main-font); font-size:10px; color:#808080b7; }
+div#flexbox-container-b > form > fieldset > input { border: 2px solid transparent; height:35px; min-width:300px; border-radius:2px; padding-left:10px; padding-bottom:3px; }
+#iemail    { font-size:17px;  }
+#ipassword { font-size:17px;  }
+#iphone_number { font-size:17px;  }
+
+div#flexbox-container-c { display:flex;  /* border:1px solid black; */ justify-content:space-around; position:relative; height:70px; width:100vw; position:relative; bottom:35px}
+div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; width:400px; height:60px; }
+div#flexbox-item-c1 > input#isubmit { width:308px; height:50px; border-radius:5px; background-color:var(--background_color); font-size:18px; font-family:var(--sub-main-font); font-weight:bold;
+                                        color:var(--main-white-color); }
+
+div#flexbox-container-d { display:flex;  /* border:1px solid black; */ position:relative; height:40px; width:100vw; position:relative; bottom:30px; justify-content:center; align-items:center;  }
+div#flexbox-item-d1 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
+
+div#flexbox-item-d2 { width:140vw; display:flex; justify-content:center; align-items:center; height:30px;}
+div#flexbox-item-d2 > p { font-family:var(--sub-main-font); font-size:15px; color:var(--background_color); }
+
+div#flexbox-item-d3 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
+
+#gray_bar_left { border-top: 1px solid var(--background_color); width:80%;   }
+#gray_bar_right { border-top: 1px solid var(--background_color); width:80%;  }
+
+div#flexbox-container-e { display:flex;  /* border:1px solid black; */ position:relative; height:70px; width:1005w; bottom:30px; justify-content:center; 
+                            align-items:center; }
+div#flexbox-item-e1 { display:flex; align-items:center; justify-content:center;  height:60px; width:50px; ; }
+div#flexbox-item-e1  > a > img { width: 50px; }
+
+div#flexbox-item-e2 { display:flex; align-items:center; justify-content:center;  height:60px; width:50px; }
+div#flexbox-item-e2  > p { font-family: var(--sub-main-font); font-weight:400; }
+
+div#flexbox-item-e3 { display:flex; align-items:center; justify-content:center; height:60px; width:50px;  }
+div#flexbox-item-e3  > a > img { width: 48px; }
+
+div#flexbox-container-f { display:flex;  /* border:1px solid black; */ justify-content:space-around; position:relative; height:30px; width:100vw; position:relative; bottom:0px }
+div#flexbox-item-f1 { display:flex; align-items:center; justify-content:center; margin:auto; width:400px; height:25px; }
+div#flexbox-item-f1 > p { font-family: var(--sub-main-font); }
+div#flexbox-item-f1 > p > a { text-decoration:none; color:black; font-size:16px; font-family:var(--main-font); }
+
+}
+
+
+/* ---------------------------------------------------------------------------------------iPad and Tablets -------------------------------------------------------------------------------- */
+@media screen and (min-width:324px) { 
+* { padding:0px; margin:0px; box-sizing:border-box;}
+:root
+        { 
+            --background_color:#17282F;
+            --yellow_color:#E1CC66;
+            --main-font:'ex_01';
+            --sub-main-font:'ex_02';
+            --font-carmen-semi-bold:'ex_05';
+            --font-carmen-bold:'ex_03';
+            --font-carmen-heavy:'ex_04';
+            --main-white-color:#fffffff2;
+            --main-ble-color: #1959ef;
+        }
+
+@font-face { font-family:'ex_01'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
+@font-face { font-family:'ex_02'; src: url(/Login_Page/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
+@font-face { font-family:'ex_05'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
+
+html { scroll-behavior:smooth; }
+header > img { margin:auto; display:block; width:250px;}
+body { background-color:white; height:101vh; }
+header > menu > a > img { width:28px; position:relative; left:16px; top:-160px; }
+
+/* div.flexbox-items {  background-color:rgb(20, 187, 123);  } */
+
+div#flexbox-container-a { display:flex; /* border:1px solid black; */ justify-content:center; height:50px; align-items:center; margin-bottom:10px; position:relative; bottom:35px;                             }
+div#flexbox-item-a1 {  width:250px; height:38px; display:flex; justify-content: center; align-items:center;}
+div#flexbox-item-a1 > h1 { font-family:var(--main-font); font-size:24px; color:var(--background_color); letter-spacing:-1px; }
+
+div#flexbox-container-b { display:flex;  /* border:1px solid black; */ justify-content:center; align-items:center; height:220px; position:relative; bottom:40px; }
+div#flexbox-container-b > div#flexbox-item-b1 { display:flex; justify-content:center; align-items:center; }
+div#flexbox-container-b > form > fieldset {  border-radius:6px; border: 3.2px solid #808080b7; }
+div#flexbox-container-b > form > fieldset > legend { padding-left:6px; padding-right:5px; font-family:var(--main-font); font-size:10px; color:#808080b7; }
+div#flexbox-container-b > form > fieldset > input { border: 2px solid transparent; height:35px; min-width:300px; border-radius:2px; padding-left:10px; padding-bottom:3px; }
+#iemail    { font-size:17px;  }
+#ipassword { font-size:17px;  }
+#iphone_number { font-size:17px;  }
+
+div#flexbox-container-c { display:flex;  /* border:1px solid black; */ justify-content:space-around; position:relative; height:70px; width:100vw; position:relative; bottom:35px}
+div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; width:400px; height:60px; }
+div#flexbox-item-c1 > input#isubmit { width:308px; height:50px; border-radius:5px; background-color:var(--background_color); font-size:18px; font-family:var(--sub-main-font); font-weight:bold;
+                                        color:var(--main-white-color); }
+
+div#flexbox-container-d { display:flex;  /* border:1px solid black; */ position:relative; height:40px; width:100vw; position:relative; bottom:30px; justify-content:center; align-items:center;  }
+div#flexbox-item-d1 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
+
+div#flexbox-item-d2 { width:140vw; display:flex; justify-content:center; align-items:center; height:30px;}
+div#flexbox-item-d2 > p { font-family:var(--sub-main-font); font-size:15px; color:var(--background_color); }
+
+div#flexbox-item-d3 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
+
+#gray_bar_left { border-top: 1px solid var(--background_color); width:80%;   }
+#gray_bar_right { border-top: 1px solid var(--background_color); width:80%;  }
+
+div#flexbox-container-e { display:flex;  /* border:1px solid black; */ position:relative; height:70px; width:1005w; bottom:30px; justify-content:center; 
+                            align-items:center; }
+div#flexbox-item-e1 { display:flex; align-items:center; justify-content:center;  height:60px; width:50px; ; }
+div#flexbox-item-e1  > a > img { width: 50px; }
+
+div#flexbox-item-e2 { display:flex; align-items:center; justify-content:center;  height:60px; width:50px; }
+div#flexbox-item-e2  > p { font-family: var(--sub-main-font); font-weight:400; }
+
+div#flexbox-item-e3 { display:flex; align-items:center; justify-content:center; height:60px; width:50px;  }
+div#flexbox-item-e3  > a > img { width: 48px; }
+
+div#flexbox-container-f { display:flex;  /* border:1px solid black; */ justify-content:space-around; position:relative; height:30px; width:100vw; position:relative; bottom:0px }
+div#flexbox-item-f1 { display:flex; align-items:center; justify-content:center; margin:auto; width:400px; height:25px; }
+div#flexbox-item-f1 > p { font-family: var(--sub-main-font); }
+div#flexbox-item-f1 > p > a { text-decoration:none; color:black; font-size:16px; font-family:var(--main-font); }
+
+}
