@@ -1,16 +1,17 @@
 @charset "UTF-8";
-@media screen and (min-width:346px) { 
+@media screen and (min-width:324px) { 
 * { padding:0px; margin:0px; box-sizing:border-box;}
 :root
         { 
-            --background_color:#17282F;
+            --main-background-color:#17282F;
             --yellow_color:#E1CC66;
             --main-font:'ex_01';
             --sub-main-font:'ex_02';
             --font-carmen-semi-bold:'ex_05';
             --font-carmen-bold:'ex_03';
             --font-carmen-heavy:'ex_04';
-            --main-white-color:#ffffffb8;
+            --main-white-color:#fffffff2;
+            --main-ble-color: #1959ef;
         }
 
 @font-face { font-family:'ex_01'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
@@ -19,140 +20,50 @@
 @font-face { font-family:'ex_04'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
 @font-face { font-family:'ex_05'; src: url(/Login_Page/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
 
-body { background-color: var(--background_color); height:102vh; }
+html { scroll-behavior:smooth; }
+header > img { margin:auto; display:block; width:335px;}
+body { background-color:var(--main-background-color); height:101vh; }
 
-main > div#container {  height:100vh;  display:flex; flex-direction:column; justify-content:center; align-items:center;}
 
-div.child {  width:100vw; height:20em; ; text-align: center;}
+div#flexbox-container-a { display:flex; /* border:1px solid black; */ justify-content:center; height:80px; align-items:center; margin-bottom:10px; position:relative; top:12px;                             }
+    div#flexbox-item-a1 {  width:250px; height:55px; display:flex; justify-content: center; align-items:center;}
+    div#flexbox-item-a1 > h1 {  font-family:var(--main-font); color:var(--yellow_color); text-align:center; margin:auto; font-size:46px; }
 
-img#yoga_img_tablet { display:none;}
+div#flexbox-container-b { display:flex;  /* border:1px solid black; */ justify-content:center; align-items:center; height:60px; width:100vw; position:relative; top:22px; }
+    div#flexbox-item-b1 { display:flex; justify-content:center; align-items:center; height:50px; width:320px; }
+    div#flexbox-item-b1 > p {  font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center;  }
 
-#child_02 { padding:10px; }
-#child_02 > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; margin:auto; font-size:41px;}
+div#flexbox-container-c { display:flex;  /* border:1px solid black; */ justify-content:center; position:relative; height:90px; width:100vw; position:relative; top:30px; margin:auto; }
 
-#child_03 > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; position:relative; top:18px; }
+    div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; height:60px; width:170px; }
+        a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white; font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:12px 48px 12px ; } 
 
-#child_05 { padding-top:13px;  position:relative; top:10px; } 
-    #child_05 > a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white;
-                                font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:12px 48px 12px 48px; } 
+    div#flexbox-item-c2 { display:flex; align-items:center; justify-content:center; margin:auto; height:60px; width:170px; }
+        #login_link { border:1.4px solid white; text-decoration:none; color:var(--main-background-color); font-family:var(--main-font);  border-radius:8px; padding:12px 48px 12px ; background-color:white;   } 
 
-        #child_05 > #login_link { border:1.4px solid white;  text-decoration:none; color:white; font-family:var(--main-font);  border-radius:8px;
-                                    padding:12px 48px 12px 48px; background-color:white; color: var(--background_color); margin-left:20px;  } 
+div#flexbox-container-d { display:flex;  /* border:1px solid black; */ position:relative; height:50px; width:100vw; top:40px; justify-content:space-around; align-items:center;  }
+    div#flexbox-item-d1 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
 
-#child_08 > p {  color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top: 30%;} 
+    div#flexbox-item-d2 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
+    div#flexbox-item-d2 > p {  font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center;  font-size:13px;}
 
-#child_10 { position:relative; top:-35px; }
-#child_10 > p { color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top:2.5em  }
+    div#flexbox-item-d3 { width:100vw; display:flex; justify-content:center; align-items:center; height:30px;}
 
-#child_10 > img#fb_logo { width:50px;  }
+#gray_bar_left { border-top: 1px solid var(--main-white-color); width:80%;   }
+#gray_bar_right { border-top: 1px solid var(--main-white-color); width:80%;  }
 
-    #child_10 > img#google_logo { width:48px; margin-left:30px;}
+div#flexbox-container-e { display:flex;  /* border:1px solid black; */ position:relative; height:70px; width:1005w; top:50px; justify-content:center;  align-items:center; }
+    div#flexbox-item-e1 { display:flex; align-items:center; justify-content:center;  height:60px; width:50px; ; }
+    div#flexbox-item-e1  > a > img { width: 50px; }
 
-footer > p { color:var(--main-white-color); font-family:var(--sub-main-font); font-size:11px; padding-left:4px;}
+    div#flexbox-item-e2 { display:flex; align-items:center; justify-content:center;  height:60px; width:50px; }
+    div#flexbox-item-e2  > p { font-family: var(--sub-main-font); font-weight:400; color:white }
+
+    div#flexbox-item-e3 { display:flex; align-items:center; justify-content:center; height:60px; width:50px;  }
+    div#flexbox-item-e3  > a > img { width: 48px; }
+
+footer { position:relative;  top:67px; padding-bottom:3px;}
+footer > p { color:var(--main-white-color); font-family:var(--sub-main-font); font-size:11px; padding-left:4px; text-align:center;}
     a#Terms_of_use_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
-        a#privacy-policy_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
-
-#gray_bar_left { border-top: 1px solid #ffffffb8 ; width:24%; display:flex; flex-direction:row; margin-left:17px;   }
-#gray_bar_right { border-top: 1px solid #ffffffb8 ; width:24%; display:flex; flex-direction:row; float:right; margin-right:17px;  }
-
-}
-
-/* -------------------------------------------------------------------------------------470------------------------------------------------------------------------------------- */
-
-@media screen and (min-width:470px) { 
-* { padding:0px; margin:0px; box-sizing:border-box;}
-:root
-    { 
-        --background_color:#17282F;
-        --yellow_color:#E1CC66;
-        --main-font:'ex_01';
-        --sub-main-font:'ex_02';
-        --font-carmen-semi-bold:'ex_05';
-        --font-carmen-bold:'ex_03';
-        --font-carmen-heavy:'ex_04';
-        --main-white-color:#ffffffb8;
-    }
-
-@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
-@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
-@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
-@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
-@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
-
-body { background-color: var(--background_color); height:100vh;}
-
-div#container {  height:100vh;  display:flex; flex-direction:column; justify-content:center; align-items:center;}
-
-div.child {  width:100vw; height:20em; ; text-align: center;}
-
-img#yoga_img_tablet { display:block; width:420px; margin:auto;  }
-img#yoga_img_mobile { display:none;  }
-
-#child_02 { padding:10px; }
-#child_02 > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; margin:auto; font-size:46px; }
-
-#child_03 > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; font-size:18px; }
-
-#child_05 { padding-top:13px; } 
-    #child_05 > a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white;
-                                font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:16px 60px 16px 60px; } 
-
-        #child_05 > #login_link { border:1.4px solid white;  text-decoration:none; color:white; font-family:var(--main-font);  border-radius:8px;
-                                    padding:16px 60px 16px 60px; background-color:white; color: var(--background_color); margin-left:20px;  } 
-
-#child_06 > p {  color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top: 68%; } 
-
-#gray_bar_left { border-top: 1px solid #ffffffb8 ; width:30%; display:flex; flex-direction:row;  }
-#gray_bar_right { border-top: 1px solid #ffffffb8 ; width:30%; display:flex; flex-direction:row; float:right; }
-
-}
-
-/* -------------------------------------------------------------------------------------678------------------------------------------------------------------------------------- */
-
-@media screen and (min-width:678px) { 
-* { padding:0px; margin:0px; box-sizing:border-box;}
-:root
-    { 
-        --background_color:#17282F;
-        --yellow_color:#E1CC66;
-        --main-font:'ex_01';
-        --sub-main-font:'ex_02';
-        --font-carmen-semi-bold:'ex_05';
-        --font-carmen-bold:'ex_03';
-        --font-carmen-heavy:'ex_04';
-        --main-white-color:#ffffffb8;
-    }
-
-@font-face { font-family:'ex_01'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ ExtraBold.otf) format(opentype);  }
-@font-face { font-family:'ex_02'; src: url(/fonts/nexa-book/nexa-book.ttf) format(truetype);  }
-@font-face { font-family:'ex_03'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Bold.otf) format(opentype);  }
-@font-face { font-family:'ex_04'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ Heavy.otf) format(opentype);  }
-@font-face { font-family:'ex_05'; src: url(/fonts/carmen-sans-cufonfonts/Carmen\ Sans\ SemiBold.otf) format(opentype);  }
-
-body { background-color: var(--background_color); height:100vh;}
-
-div#container {  height:100vh;  display:flex; flex-direction:column; justify-content:center; align-items:center;}
-
-div.child {  width:100vw; height:20em; ; text-align: center;}
-
-img#yoga_img_tablet { display:block; width:420px; margin:auto;  }
-img#yoga_img_mobile { display:none;  }
-
-#child_02 { padding:10px; }
-#child_02 > h1 { font-family:var(--main-font); color:var(--yellow_color); text-align:center; margin:auto; font-size:46px; }
-
-#child_03 > p { font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center; font-size:18px; }
-
-#child_05 { padding-top:13px; } 
-    #child_05 > a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white;
-                                font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:16px 60px 16px 60px; } 
-
-        #child_05 > #login_link { border:1.4px solid white;  text-decoration:none; color:white; font-family:var(--main-font);  border-radius:8px;
-                                    padding:16px 60px 16px 60px; background-color:white; color: var(--background_color); margin-left:20px;  } 
-
-#child_06 > p {  color:var(--main-white-color); font-family:var(--sub-main-font); position:relative; top: 68%; } 
-
-#gray_bar_left { border-top: 1px solid #ffffffb8 ; width:30%; display:flex; flex-direction:row;  }
-#gray_bar_right { border-top: 1px solid #ffffffb8 ; width:30%; display:flex; flex-direction:row; float:right; }
-
+    a#privacy-policy_style { text-decoration:none; color:var(--yellow_color); font-weight:bold; }
 }
