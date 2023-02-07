@@ -33,12 +33,12 @@ div#flexbox-container-b { display:flex;  justify-content:center; align-items:cen
     div#flexbox-item-b1 { display:flex; justify-content:center; align-items:center; height:50px; width:320px; }
     div#flexbox-item-b1 > p {  font-family:var(--sub-main-font); color:var(--main-white-color); text-align:center;  }
 
-div#flexbox-container-c { display:flex;  justify-content:center; position:relative; height:90px; width:400px; position:relative; top:30px; margin:auto; }
+div#flexbox-container-c { display:flex;  justify-content:center; position:relative; height:90px; position:relative; top:30px; margin:auto; }
 
-    div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; height:60px; width:170px; }
+    div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; height:60px;  }
         a#sign_up_link { border:1.4px solid #ffffffb8; text-decoration:none; color:white; font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:12px 48px 12px ; } 
 
-    div#flexbox-item-c2 { display:flex; align-items:center; justify-content:center; margin:auto; height:60px; width:170px; }
+    div#flexbox-item-c2 { display:flex; align-items:center; justify-content:center; margin:auto; height:60px; }
         #login_link { border:1.4px solid white; text-decoration:none; color:var(--main-background-color); font-family:var(--main-font);  border-radius:8px; padding:12px 48px 12px ; background-color:white;   } 
 
 div#flexbox-container-d { display:flex;  position:relative; height:50px; width:100vw; top:40px; justify-content:space-around; align-items:center;  }
@@ -105,11 +105,11 @@ div#flexbox-container-b { display:flex;  justify-content:center; align-items:cen
 
 div#flexbox-container-c { display:flex; justify-content:center; height:90px; width:810px; position:relative; top:190px; }
 
-    div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; height:80px; width:400px; }
+    div#flexbox-item-c1 { display:flex; align-items:center; justify-content:center; margin:auto; height:80px; }
         a#sign_up_link {  text-decoration:none; color:white; font-family:var(--font-carmen-semi-bold); border-radius:8px; padding:25px 125px 25px 125px; 
                             font-size:30px; } 
 
-    div#flexbox-item-c2 { display:flex; align-items:center; justify-content:center; margin:auto; height:80px; width:400px; }
+    div#flexbox-item-c2 { display:flex; align-items:center; justify-content:center; margin:auto; height:80px; }
         #login_link { border:1.4px solid white; text-decoration:none; color:var(--main-background-color); font-family:var(--main-font); border-radius:8px; padding:25px 125px 25px 125px ; background-color:white; 
                             font-size:30px;  } 
 
