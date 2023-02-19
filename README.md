@@ -1,6 +1,6 @@
 <h1> Login_Form </h1>
 
-Click here yo visit: https://himelsu007.github.io/Login_Page/
+<p> Click here yo visit: https://himelsu007.github.io/Login_Page/ </p>
 
 <p>
 A login page is of extreme importance to web and app design, especially for online stores or e-commerce websites. I built this one based on "Mobile First" technique in order to improve my productivity and build a quick responsive website for all devices. 
@@ -18,4 +18,4 @@ I changed couple things such as background color for the Login and Sign Up page,
     - Responsive
     - JS Interactions
     - Good Looking
-</h1>
+</h2>
